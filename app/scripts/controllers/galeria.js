@@ -35,4 +35,8 @@ angular.module('prototiposApp')
 		$scope.addPics(i);
 	}
 
+	$scope.rate = 0;
+	$scope.max = 5;
+	$scope.isReadonlu = false;
+
   });
